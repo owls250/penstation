@@ -54,7 +54,7 @@ footer {
 /* test media layout by right-clicking on page -> inspect -> phone on top left of right half */
 @media only screen and (max-width: 600px) {
     .column {
-        width: 90%;
+        width: 100%;
     }
 
     footer {
