@@ -44,22 +44,18 @@ footer {
     margin: 1% 0 0 3%;
 }
 
-@media screen and (max-width: 992px) {
-    .navbar {
-        padding: 0;
-    }
-}
-
 /* for phone screens: from w3schools */
 /* test media layout by right-clicking on page -> inspect -> phone on top left of right half */
 @media only screen and (max-width: 600px) {
     .column.left, .column.middle {
         width: 100%;
+        margin: 2%;
     }
 
     footer {
         font-size:medium;
     }
+
   }
 
 /* to change the style with id put pound sign and then the id and then curly brackets */
