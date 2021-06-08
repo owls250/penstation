@@ -50,7 +50,7 @@ footer {
 @media only screen and (max-width: 600px) {
     .column.left {
         width: 98%;
-        /* margin: 2%; */
+        margin: 2%;
     }
     
     .column.middle {
