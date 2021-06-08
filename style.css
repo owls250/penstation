@@ -1,3 +1,5 @@
+/* margin: top, right, bottom, left */
+
 * {
     border-radius: 3%;
 }
@@ -18,7 +20,7 @@ main {
     background-color: rgb(205, 185, 224);
     padding: 5%;
     /* the top is 1% */
-    margin: 1% 2% 2% 2%;
+    margin: 1% 2% 2% 1%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-shadow: 10px 5px;
 }
@@ -30,18 +32,17 @@ footer {
     float:none;
 }
 
-.column {
-    /* so the columns are side by side */
+.column.middle {
+    box-sizing: border-box;
+    width: 85%;
     float: left;
 }
 
-.column.middle {
-    width: 85%;
-}
-
 .column.left {
-    width: 10%;
-    margin: 1% 0 0 3%;
+    box-sizing: border-box;
+    width: 14%;
+    margin: 1% 0 2% 0%;
+    float: left;
 }
 
 /* for phone screens: from w3schools */
@@ -49,7 +50,7 @@ footer {
 @media only screen and (max-width: 600px) {
     .column.left {
         width: 98%;
-        margin: 2%;
+        /* margin: 2%; */
     }
     
     .column.middle {
@@ -65,18 +66,26 @@ footer {
 
 /* to change the style with id put pound sign and then the id and then curly brackets */
 
-ul {   
-    border: 1px solid grey;
-    
-}
-
-.navbar {
+#navbar {
     color: black;
     /* display: inline for top navigation bar */
 }
 
-a {
+
+/* remove the bullet points */
+ul {  
+    list-style-type: none;
+    font-size:larger;
+    text-align: center;
+}
+
+li a {
+    border: 1px solid grey;
     text-decoration: none;
+    /* makes it so they don't overlap */
+    display: block;
+    /* padding: 3% 40%; */
+    margin: 3% 0 0 0;
 }
 
 /* to animate id:hover and then say what color you want it to change to */
@@ -93,3 +102,7 @@ a:active {
     font-size:small;
 }
 
+#penpic {
+    border: 1px solid black;
+    box-shadow: 1px 3px;
+}
