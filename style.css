@@ -89,12 +89,12 @@ li a {
 }
 
 /* to animate id:hover and then say what color you want it to change to */
-a:hover {
+li a:hover {
     color: purple;
 }
 
-a:active {
-    color: grey;
+li a:active {
+    color: black;
     font-weight:bold;
 }
 
