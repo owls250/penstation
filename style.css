@@ -30,6 +30,7 @@ footer {
     margin: 2%;
     /* so that this doesn't count as one of the columns */
     float:none;
+    text-align: center;
 }
 
 .column.middle {
@@ -104,5 +105,5 @@ li a:active {
 
 #penpic {
     border: 1px solid black;
-    box-shadow: 1px 3px;
+    box-shadow: 3px 1px;
 }
