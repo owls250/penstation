@@ -52,6 +52,7 @@ footer {
     .column.left {
         width: 98%;
         margin: auto;
+        padding: auto;
     }
     
     .column.middle {
@@ -64,6 +65,12 @@ footer {
         margin: auto;
         padding: auto;
     }
+
+    #penpic, #cicada, #exocicada {
+        width:100%;
+    }
+
+
 
   }
 
@@ -108,4 +115,11 @@ li a:active {
 #penpic {
     border: 1px solid black;
     box-shadow: 3px 1px;
+}
+
+#cicada, #exocicada {
+    width: 40%;
+    border: 1px solid black;
+    box-shadow: 3px 1px;
+    margin: 3%;
 }
