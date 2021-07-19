@@ -120,6 +120,6 @@ li a:active {
 #cicada, #exocicada {
     width: 40%;
     border: 1px solid black;
-    box-shadow: 3px 1px;
+    box-shadow: 3px 1px 1px;
     margin: 3%;
 }
