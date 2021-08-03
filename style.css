@@ -66,7 +66,7 @@ footer {
         padding: auto;
     }
 
-    #penpic, #cicada, #exocicada {
+    img {
         width:100%;
     }
 
@@ -115,6 +115,8 @@ li a:active {
 #penpic {
     border: 1px solid black;
     box-shadow: 3px 1px;
+    float: right;
+    width: 30%;
 }
 
 #cicada, #exocicada {
