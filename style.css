@@ -112,6 +112,15 @@ li a:active {
     font-size:small;
 }
 
+img {
+    border: 1px solid black;
+    box-shadow: 3px 1px 1px;
+
+    /* centers images */
+    margin: auto;
+    display: block;
+}
+
 #penpic {
     border: 1px solid black;
     box-shadow: 3px 1px;
@@ -124,4 +133,8 @@ li a:active {
     border: 1px solid black;
     box-shadow: 3px 1px 1px;
     margin: 3%;
+
+    /* puts images side by side */
+    display:inline-block;
 }
+
