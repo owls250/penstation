@@ -119,6 +119,7 @@ img {
     /* centers images */
     margin: auto;
     display: block;
+    width: 40%;
 }
 
 #penpic {
@@ -129,9 +130,6 @@ img {
 }
 
 #cicada, #exocicada {
-    width: 40%;
-    border: 1px solid black;
-    box-shadow: 3px 1px 1px;
     margin: 3%;
 
     /* puts images side by side */
